@@ -7,7 +7,8 @@ No ha habido nada que no haya entendido (por suerte).
 Bueno, no ha sido nada que no supiera ya, asi que sin más, pero ha estado bien.
 ## Que más me gustaría saber sobre la unidad
 Ahora mismo no se me ocurre nada relacionado con lo que hemos hecho hoy que tenga más curiosidad por saber.
-# Lunes 7 Oct 2022
+
+# Viernes 7 Oct 2022
 ## Que he aprendido
 Presentación de la introducción a las aplicaciones web.
 ## Que no entiendo
