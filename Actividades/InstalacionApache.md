@@ -60,3 +60,26 @@ sudo systemctl disable apache2
 ```
 sudo systemctl enable apache2
 ```
+# Como configurar el servidor web Apache en Ubuntu
+## Creando nuestra propia web
+Para empezar vamos a crear una carpeta para nuestra web dentro de _/var/www/_  
+En este caso le hemos llamado _prueba_ pero puedes llamar a la carpeta como quieras.
+```
+sudo mkdir /var/www/prueba/
+```
+Ahora que tenemos el directorio creado para nuestra web, vamos a crear un HTML dentro de esta
+```
+cd /var/www/prueba
+sudo nano index.html
+```
+Dentro de el archivo HTML que hemos creado, como de momento es una prueba, pondremos un pequeño código HTML.
+## Configuración del archivo de configuración de VirtualHost
+Vamos a empezar yendo al directorio donde estan almaccenados los archivos de configuración.
+```
+cd /etc/apache2/sites-available/
+```
+`Dato:`Apache viene configurado predeterminadamente con un archivo VirtualHost (lo utilizaremos como base)
+`Recuerda:`En este caso hemos llamado al archivo de configuración _prueba_ para que coincida con el nombre de nuestro proyecto.
+```
+sudo cp 000-default.conf prueba.conf
+```
