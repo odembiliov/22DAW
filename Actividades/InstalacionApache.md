@@ -83,3 +83,7 @@ cd /etc/apache2/sites-available/
 ```
 sudo cp 000-default.conf prueba.conf
 ```
+A continuación editaremos el archivo _prueba.conf_
+```
+sudo nano prueba.conf
+```
