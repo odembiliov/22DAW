@@ -1,4 +1,8 @@
 # Como instalar el servidor web Apache en Ubuntu
+## Qué es Apache y cómo funciona
+Apache es un servidor web HTTP de código abierto. Está desarrollado y mantenido por una comunidad de usuarios en torno a la Apache Software Foundation.
+Actualmente y desde el 1996 es el servidor web más usado en todo el mundo debido a su seguridad y estabilidad.
+La funcionalidad principal de este servicio web es servir a los usuarios todos los ficheros necesarios para visualizar la web.
 ## Instalar Apache
 El primer paso que debemos realizar será abrir el terminal de ubuntu para a continuación empezar con los comandos para la instalación.  
 **Importante** -> Actualizar
