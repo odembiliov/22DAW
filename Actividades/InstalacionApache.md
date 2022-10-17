@@ -93,3 +93,13 @@ ServerAdmin yourname@example.com
 DocumentRoot /var/www/prueba/
 ServerName prueba.example.com
 ```
+* **ServerAdmin**: Los usuarios de Apache te pueden buscar en el caso de que hubiera algun problema.
+* **DocumentRoot**: Directiva para apuntar la ruta donde estan alojados los archivos de nuestra web.
+* **ServerName**: Garantiza que las personas lleguen al sitio correcto en lugar del predeterminado.
+Después de configurar nuestro sitio web, debemos activar el archivo de configuración de hosts virtuales para habilitarlo.
+```
+sudo a2ensite prueba.conf
+```
+`Dato:` En el caso de que no hayas activado la nueva configuración te pedira que la actualices -> _sudo systemctl reload apache2_
+  
+Para acabar, comprueba buscando en el navegador tu _**ServerName**_.
