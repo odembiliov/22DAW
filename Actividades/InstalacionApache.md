@@ -87,3 +87,9 @@ A continuación editaremos el archivo _prueba.conf_
 ```
 sudo nano prueba.conf
 ```
+Dentro de este fichero añadiremos las siguientes lineas de código
+```
+ServerAdmin yourname@example.com
+DocumentRoot /var/www/prueba/
+ServerName prueba.example.com
+```
