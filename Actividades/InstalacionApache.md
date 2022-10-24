@@ -109,5 +109,5 @@ sudo a2ensite prueba.conf
 Para acabar, comprueba buscando en el navegador tu _**ServerName**_.
 
 ### Historial
-[Documentació d'Apache: Configuració](https://www.desarrollolibre.net/blog/apache/que-son-y-como-emplear-los-virtualhost-en-apache)
+[Documentació d'Apache: Configuració](https://www.desarrollolibre.net/blog/apache/que-son-y-como-emplear-los-virtualhost-en-apache)  
 [Documentació d'Apache: Configuració](https://ubuntu.com/tutorials/install-and-configure-apache#1-overview)
