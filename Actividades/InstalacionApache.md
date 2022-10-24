@@ -107,3 +107,7 @@ sudo a2ensite prueba.conf
 `Dato:` En el caso de que no hayas activado la nueva configuración te pedira que la actualices -> _sudo systemctl reload apache2_
   
 Para acabar, comprueba buscando en el navegador tu _**ServerName**_.
+
+### Historial
+[Documentació d'Apache: Configuració](https://www.desarrollolibre.net/blog/apache/que-son-y-como-emplear-los-virtualhost-en-apache)
+[Documentació d'Apache: Configuració](https://ubuntu.com/tutorials/install-and-configure-apache#1-overview)
