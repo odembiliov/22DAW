@@ -24,7 +24,7 @@ sudo ufw allow 'Apache'
 sudo ufw enable
 sudo ufw status
 ```
-##Comprobar su servidor web
+## Comprobar su servidor web
 En este paso el servidor web ya estara activo.  
 Vamos a realizar una verificación con el sistema `systemd` para saber si se encuentra en ejecución el servicio.  
 ```
@@ -39,7 +39,7 @@ Una vez comprobamos que el servicio esta en ejecución, para conocer la direcci�
 hostname -I
 http://_yourServerIP_
 ```
-##Administrar el proceso de Apache
+## Administrar el proceso de Apache  
 **Detener el servidor**
 ```
 sudo systemctl stop apache2
