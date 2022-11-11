@@ -52,7 +52,7 @@ ServerAdmin yourname@example.com
 DocumentRoot /var/www/practica/
 ServerName practica.example.com
 ```
-En el caso de que nos saliera el siguiente problema, modificaremos los hosts.
+En el caso de que nos saliera el siguiente problema, modificaremos los hosts.  
 ![](https://www.desarrollolibre.net/public/images/example/apache/sitio-caido.png?ezimgfmt=rs:300x225/rscb1/ng:webp/ngcb1)
 ### Modifica los host del local para que con la dirección elegida vaya a la ip del servidor
 Para modificar los hosts deberíamos ir al siguiente directorio y modificar el archivo hosts.
